@@ -1,0 +1,11 @@
+each el in data
+    div.new
+        div.verh
+            div.red
+            div.task
+                div.text
+                    h2.shapka #{el.name}
+                    h2.zifra #{el.zifra}
+            include zadacha.pug
+        include zadacha.pug
+        include addbutton.pug
